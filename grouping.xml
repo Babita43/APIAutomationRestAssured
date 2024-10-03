@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/bavia/IdeaProjects/ApiAutomationRestAssured/src/test/java/Practice">
+        <classes>
+            <!-- even we can add here all classes , so if the tag falls in the group then it run-->
+        <class name="Practice.Grouping">
+    </class>
+    </classes>
+        <groups>
+            <run>
+               <include name="smoke"></include>
+                <exclude name="reg"></exclude>
+            </run>
+        </groups>
+    </test>
+</suite>

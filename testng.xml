@@ -1,14 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/bavia/IdeaProjects/ApiAutomationRestAssured/src/test/java/Practice">
-        <classes>
-        <class name="Practice.AllAnnotations">
-        <methods>
-            <include name="testOne"/>
-            <include name="testTwo"/>
-        </methods>
-    </class>
-    </classes>
-    </test>
-</suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/bavia/IdeaProjects/ApiAutomationRestAssured/src/test/java/TestNGCases/Listner"><classes><class name="TestNGCases.Listner.StudentEvent"><methods><include name="school"/><include name="play"/></methods></class></classes></test></suite>
